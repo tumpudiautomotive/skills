@@ -1,0 +1,23 @@
+.track-art img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 45%;
+}
+.track-art .art-label {
+  background: #123726;
+  color: #fff;
+  padding: 6px 9px;
+  border-radius: 4px;
+}
+.course-chooser .chooser-photo {
+  background-size: cover;
+  background-position: center 44%;
+}
+.photo-ev { background-image: url('assets/track-ev.webp'); }
+.photo-mech { background-image: url('assets/track-mech.webp'); }
+.photo-design { background-image: url('assets/track-design.webp'); }
+.photo-ai { background-image: url('assets/track-ai.webp'); }
+.photo-data { background-image: url('assets/track-data.webp'); }
+.photo-cyber { background-image: url('assets/track-cyber.webp'); }

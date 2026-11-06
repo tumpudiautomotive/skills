@@ -1,0 +1,108 @@
+.skills-home .home-approach {
+  background: linear-gradient(180deg, #f8f9f4, #ecf1e5);
+}
+.skills-home #home-institutions {
+  background: radial-gradient(ellipse at 100% 100%, #e8eddb, transparent 62%), #f8f9f4;
+}
+.skills-home .institution-offerings svg {
+  box-sizing: content-box;
+  padding: 10px;
+  border-radius: 50%;
+  background: #e5ecdc;
+}
+.skills-home #home-associations.logo-carousel {
+  background: #f0f3e9;
+}
+.skills-home .next-chapter {
+  background: radial-gradient(ellipse at 8% 110%, #426343, transparent 58%), #123726;
+}
+
+.skills-organisations .page-intro {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  margin-bottom: 36px;
+  padding-top: clamp(44px, 7vw, 100px) !important;
+  padding-bottom: clamp(44px, 6vw, 84px) !important;
+  background: radial-gradient(ellipse at 100% 100%, #416447, transparent 64%), #123726;
+  color: #f8f9f4;
+  border-radius: 0 0 28px 28px;
+}
+.skills-organisations .page-intro::after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  width: 36%;
+  aspect-ratio: 1;
+  right: -4%;
+  bottom: -55%;
+  border: 1px solid #c7db9b48;
+  border-radius: 50%;
+  box-shadow: 0 0 0 28px #c7db9b14, 0 0 0 58px #c7db9b10, 0 0 0 88px #c7db9b0b;
+}
+.skills-organisations .page-intro h1,
+.skills-organisations main h2 {
+  font-family: Georgia, serif;
+  font-weight: 500;
+}
+.skills-organisations .page-intro em,
+.skills-organisations .page-intro .eyebrow,
+.skills-organisations .page-intro .textlink {
+  color: #d5e7b3;
+  border-color: currentColor;
+}
+.skills-organisations .page-intro .intro {
+  color: #e2ebdf;
+}
+.skills-organisations .page-intro .button {
+  background: #d5e7b3;
+  color: #123726;
+}
+.skills-organisations .institution-process {
+  background: transparent;
+  border: 0;
+  margin-bottom: 0;
+}
+.skills-organisations .training-topics,
+.skills-organisations #skilling {
+  border-top: 1px solid var(--line);
+}
+.skills-organisations .training-grid li {
+  box-shadow: 0 8px 24px #193e2710;
+}
+.skills-organisations #centres-of-excellence {
+  background: linear-gradient(140deg, #e6eddd, #f2f5eb);
+}
+.skills-organisations #centres-of-excellence .training-grid li {
+  background: #f8f9f4;
+}
+.skills-organisations #centres-of-excellence .training-grid h3 {
+  margin-top: 0;
+}
+@media (max-width: 700px) {
+  .skills-organisations .page-intro h1 {
+    font-size: clamp(37px, 10vw, 55px);
+  }
+  .skills-organisations .page-intro::after {
+    width: 60%;
+    bottom: -25%;
+  }
+  .skills-home .institution-offerings svg {
+    padding: 6px;
+  }
+}
+
+.skills-home .institution-offerings .textlink {
+  font-size: inherit;
+  padding-bottom: 0;
+  text-underline-offset: 4px;
+  text-decoration: underline;
+  border: 0;
+}
+
+.skills-home .hero-track-link {
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid currentColor;
+  padding-inline: 0;
+}
