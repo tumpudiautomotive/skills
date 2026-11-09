@@ -23,6 +23,6 @@
 .photo-cyber { background-image: url('assets/track-cyber.webp'); }
 
 
-.photo-pcb{background-image:url("https://commons.wikimedia.org/wiki/Special:FilePath/Soldering-PCB-b.jpg?width=700")}
-.photo-solar{background-image:url("https://commons.wikimedia.org/wiki/Special:FilePath/Installation_of_photovoltaic_modules_on_roof.jpg?width=700")}
+.photo-pcb{background-image:url("https://upload.wikimedia.org/wikipedia/commons/5/56/Soldering-PCB-b.jpg")}
+.photo-solar{background-image:url("https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Installation_of_photovoltaic_modules_on_roof.jpg/1280px-Installation_of_photovoltaic_modules_on_roof.jpg")}
 .photo-credit{display:block;margin-top:8px;font-size:11px;line-height:1.4;color:#6d756d}
