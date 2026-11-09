@@ -22,3 +22,7 @@
 .photo-data { background-image: url('assets/track-data.webp'); }
 .photo-cyber { background-image: url('assets/track-cyber.webp'); }
 
+
+.photo-pcb{background-image:url("https://commons.wikimedia.org/wiki/Special:FilePath/Soldering-PCB-b.jpg?width=700")}
+.photo-solar{background-image:url("https://commons.wikimedia.org/wiki/Special:FilePath/Installation_of_photovoltaic_modules_on_roof.jpg?width=700")}
+.photo-credit{display:block;margin-top:8px;font-size:11px;line-height:1.4;color:#6d756d}
