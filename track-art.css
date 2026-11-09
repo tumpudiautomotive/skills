@@ -21,3 +21,24 @@
 .photo-ai { background-image: url('assets/track-ai.webp'); }
 .photo-data { background-image: url('assets/track-data.webp'); }
 .photo-cyber { background-image: url('assets/track-cyber.webp'); }
+
+.photo-pcb{background-image:linear-gradient(135deg,#163f3b,#276e61 55%,#9fc7a2)}
+.photo-solar{background-image:linear-gradient(135deg,#e7c66e,#f3df9b 48%,#7d9e77)}
+.art7{background:radial-gradient(circle at 50% 50%,#2d776b,#16453f 70%)}
+.art8{background:linear-gradient(145deg,#f5e3a9,#b7cda5 55%,#698b70)}
+.pcb-visual{position:relative;width:62%;height:68%;border:3px solid #a7d3a1;border-radius:8px;background:repeating-linear-gradient(90deg,transparent 0 24px,#8dc69a 25px 27px,transparent 28px 46px),repeating-linear-gradient(0deg,transparent 0 24px,#8dc69a 25px 27px,transparent 28px 46px),#1c5a50;box-shadow:10px 10px 0 #102f2b70;transform:rotate(-8deg)}
+.pcb-visual:before,.pcb-visual:after{content:'';position:absolute;background:#d9dca2;border-radius:3px}
+.pcb-visual:before{width:28%;height:25%;left:35%;top:34%;box-shadow:0 0 0 5px #397e6c}
+.pcb-visual:after{width:9px;height:9px;left:10%;top:12%;box-shadow:150px 0 #d9dca2,0 100px #d9dca2,150px 100px #d9dca2}
+.pcb-visual span,.pcb-visual i,.pcb-visual b{position:absolute;display:block;border:2px solid #d5d99d;border-radius:50%;width:9px;height:9px}
+.pcb-visual span{left:20%;top:70%}.pcb-visual i{right:18%;top:15%}.pcb-visual b{right:20%;bottom:12%}
+.solar-visual{position:relative;width:68%;height:58%;transform:skewY(-12deg) rotate(-5deg);border:5px solid #f6f0d7;background:repeating-linear-gradient(90deg,transparent 0 24%,#a9c5ca 25% 26%),repeating-linear-gradient(0deg,#315c76 0 24%,#a9c5ca 25% 26%);box-shadow:0 12px 0 #647e5b}
+.solar-visual:before{content:'';position:absolute;width:12px;height:75px;background:#e8e4d0;left:48%;top:100%;transform:skewY(12deg)}
+.solar-visual span{position:absolute;width:130%;height:7px;background:#f5f0d8;left:-15%;bottom:-25px}
+.solar-visual i{position:absolute;width:90%;height:5px;background:#f5f0d8;left:5%;bottom:-36px}
+.detail-art{background-color:#e7eee3}
+.detail-pcb{background:radial-gradient(circle at 50% 50%,#2d776b,#16453f 75%)}
+.detail-solar{background:linear-gradient(145deg,#f5e3a9,#b7cda5 55%,#698b70)}
+.detail-art:before{content:'';display:block;width:48%;height:48%;margin:8% auto;border:4px solid #d5e2c8;border-radius:8px;box-shadow:12px 12px 0 #102f2b55}
+.detail-pcb:before{background:repeating-linear-gradient(90deg,transparent 0 20px,#9bc9a0 21px 23px),repeating-linear-gradient(0deg,transparent 0 20px,#9bc9a0 21px 23px),#1c5a50}
+.detail-solar:before{width:62%;height:42%;border-radius:2px;background:repeating-linear-gradient(90deg,transparent 0 24%,#a9c5ca 25% 27%),repeating-linear-gradient(0deg,#315c76 0 24%,#a9c5ca 25% 27%);transform:skewY(-10deg)}
